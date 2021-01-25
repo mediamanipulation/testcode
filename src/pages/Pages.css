@@ -1,0 +1,84 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+.boxSize{
+    box-sizing: border-box;
+    margin: 20px 5px 15px 40px;
+    width: 80%;
+
+}
+.endpointsBox{
+    margin: 10px 10px 10px 10px;
+} 
+.endpoints {
+    color: #5F666C;
+    border: 1px solid #E4E7EB;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 2%), 0 1px 2px rgb(0 0 0 / 4%);
+    display: block;
+    flex: 1 0 256px;
+    margin: 16px 0;
+    padding: 5px 10px 30px 10px;
+    position: relative;
+    text-decoration: none;
+    transition: box-shadow .1s ease,border-color .2s ease;
+}
+div p {
+  display: inline-block;
+  font-size: 11px;
+  color: black;
+  text-transform: none;
+  margin: 0 20px;
+
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
